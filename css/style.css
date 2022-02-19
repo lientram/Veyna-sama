@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+h2{
+  float: left;
+  margin-top: -1px;
+  margin-right: 10px;
+  background-color: red;
+  padding: 10px;
+}
+
+  body {
+    background-color: rgb(155, 153, 153);
+    margin: 0;
+    font-family: arial
+    height 100px;
+    margin-top:-50px;
+  }
+  
+    .header {
+      background-color: gray;
+    color: 	black;
+    padding: 10px;
+    text-align: center;
+    float: left; 
+    height: 360px;
+    width: 100%;
+    margin-bottom: 20px;;
+    margin-top:0px;
+  }
+  .main{
+      width:100%;
+  }
+.footer{
+  width:100%;
+  clear: left;
+  text-align: center;
+  background-color: #A9A9A9;
+  margin-top: 50px;
+  height: 200px;
+}
+ 
+  .parallax {
+    background-image: url(https://thegioingoaingu.com/pic/News/images/cac-loai-thuoc.jpg);
+    width: 85%;
+    height: 100%;
+    background: #000;
+  }
+  .sidebar{
+    float: right;
+    width: 30%;
+    height: 200%;
+    background: #FF0099
+  }
+  .menux{
+    height:100px;
+    width:100%;
+    padding-top:  25px;
+    padding-left: 0px;
+  }
+img.slide{
+    width:720px;
+    height: 240px;
+    margin-top:5px;
+}
+.thienphuc{
+margin-top: 1px; 
+width :245px;
+height: 245px;
+margin-left: 30px;
+}
+.icon1{
+  float:left;
+  margin-top:-130px;
+  margin-left:645px;
+}
+.banner{
+  height: 250px;
+  width: 750px;
+  float: left;
+}
+.slidebar{
+  height: 250px;
+  width:650px;
+  margin-left: 20px;
+  float:left;
+  margin-top: 1px;
+}
+.anh{
+  padding-left: 10px;
+}
+h1{
+  margin-left: 20px;
+  margin-top: 50px;
+  padding-top:50px;
+}
+.box{
+  border :1px solid black;
+  margin-left: 60px;
+  background-color:white;
+  width:292px;
+  height:501px;
+  float:left;
+  margin-top:20px;
+}
+.tensp{
+  border :1px solid black;
+  height: 100px;
+  
+}
+.sotien{
+  border :1px solid black;
+  height: 20px;
+ 
+}
+.anhsp{
+  border :1px solid black;
+  height: 330px;
+}
+.anhsp2{
+  width:200px;
+  height: 300px;
+  margin: 0px auto;
+  margin-left: 30px;
+}
+h4{
+  margin-left: 80px;
+}
+button{
+  height:50px;
+  width:291px;
+  background-color: #87CEEB; 
+}
+img.vy{
+  margin-left:60px;
+
+}
+p{
+  font-size: 20px;
+  margin-left: 20px;
+}
+button:hover{
+  background-color: #C71585;
+}
+.login a:hover{
+  background-color: #270e96;
+    color: rgb(196, 48, 22);
+    font-weight: bold
+}
+.login {
+  background-color: rgb(162, 13, 221);
+    color: white;
+    font-weight: bold
+}
+iframe{
+  margin : 0;
+  margin-left: 550px;
+  margin-top: 80px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  padding-top: 13px;
+  list-style: none;
+  background-color: #FF0099;
+  
+}
+li{
+  width: 150px;
+  text-align: center; 
+}
+.menu > ul{
+  
+  font-size: 20px;
+  height: 48px;
+}
+.menu > ul > li{
+  display: inline-block;
+  border-right: 1px solid #dddddd;
+  position: relative;
+}
+.menu > ul > li > ul {
+  display: none;
+  position: absolute;
+  top: 15px;
+}
+.menu > ul > li > ul li{
+  padding: 5px 0;
+  border-bottom: 1px solid #dddddd;
+}
+ul li:last-child{
+  border: none;
+}
+.menu ul li:hover ul{
+  display: block;
+} .nut-mo-chatbox {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.Chatbox {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container .nut-dong-chatbox {
+  background-color: pink;
+}
+.form-container .btn:hover, .nut-mo-chatbox:hover {
+  opacity: 1;
+}
+
